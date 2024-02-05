@@ -86,4 +86,8 @@ public class UtilityClass {
 			s.selectByVisibleText(txt);
 			
 		}
+		public static void quitbrowser() {
+		driver.quit();
+
+		}
 }
